@@ -1,5 +1,4 @@
 var port = 3002;
-
 var app = require('express')();
 
 app.use(require('compression')());
