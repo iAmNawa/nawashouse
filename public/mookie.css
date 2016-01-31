@@ -1,8 +1,6 @@
-p {
-  font-size: 5em;
-  font-weight: bold;
+body {
+  background-color: silver;
 }
-
-.dopeboy {
-  font-size: 10px;
+h1 {
+  font-family: arial;
 }
