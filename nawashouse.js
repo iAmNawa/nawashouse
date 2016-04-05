@@ -36,4 +36,4 @@ wss.on("connection", function(ws) {
 
 });
 
-console.log("Web socket is running bitch")
+console.log("Web socket is running")

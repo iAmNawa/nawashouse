@@ -2,7 +2,7 @@
 var ws = new WebSocket("ws://nawashouse.com");
 
 ws.onopen = function() {
-	setTitle("nawashouse test chat");
+	setTitle("This is a websocket chat");
 };
 
 ws.onclose = function() {
