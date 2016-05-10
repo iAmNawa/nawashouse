@@ -20,15 +20,15 @@ wss.on("connection", function(ws) {
 
 	ws.on("message", function(message) {
 
-		if (message === 'exit') {
-			ws.close();
-		} else {
+	if (message === 'exit') {
+	   ws.close();
+	} else {
 
-			wss.clients.forEach(function(client) {
-				client.send(message);
-			});
+	wss.clients.forEach(function(client) {
+		client.send(message);
+	});
 
-		}
+}
 
 	});
 
