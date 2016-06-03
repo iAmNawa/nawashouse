@@ -49,3 +49,7 @@ form {
     display: -ms-flexbox;
     display: flex;
 }
+
+#copy {
+  text-align: center;
+}
